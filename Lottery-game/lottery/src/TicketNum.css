@@ -1,0 +1,10 @@
+.ticketNum{
+    border: 1px solid pink;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 12px;
+}
+.btn{
+    margin-top: 15px;
+}
