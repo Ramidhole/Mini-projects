@@ -14,37 +14,37 @@
         <h2>Password-Generator</h2>
 
         <div class="inputbox">
-            <input type="text" class="pass" disabled>
+            <input type="text" class="passBox" id="passBox" disabled>
 
         </div>
-        <input type="range" min="8" max="20" value="8">
+        <input type="range" min="1" max="30" value="8" id="inputSlider">
     
 <div class="row">
     <p>password length</p>
-    <span>4</span>
+    <span id="sliderValue"></span>
 </div>
 
 <div class="row">
-<label for="Lowercase">Lowercase Letters(a-z)</label>
-<input type="checkbox" name="Lowercase" id="Lowercase">
+<label for="lowercase">Lowercase Letters(a-z)</label>
+<input type="checkbox" name="Lowercase" id="lowercase">
 </div>
 
 
 <div class="row">
-<label for="Uppercase">Uppercase Letters(A-Z)</label>
-<input type="checkbox" name="Uppercase" id="Uppercase">
+<label for="uppercase">Uppercase Letters(A-Z)</label>
+<input type="checkbox" name="Uppercase" id="uppercase">
 </div>
 
 <div class="row">
-<label for="Numbers">Numbers (0-9)</label>
-<input type="checkbox" name="Numbers" id="Numbers">
+<label for="numbers">Numbers (0-9)</label>
+<input type="checkbox" name="Numbers" id="numbers">
 </div>
 
 <div class="row">
-<label for="Symbols">Symbols(!@#$%)</label>
-<input type="checkbox" name="Symbols" id="Symbols">
+<label for="symbols">Symbols(!@#$%)</label>
+<input type="checkbox" name="Symbols" id="symbols">
 </div>
-<button type="button" class="genbtn"> Generate Password</button>
+<button type="button" class="genbtn" id="genbtn"> Generate Password</button>
 
 
 </div>
