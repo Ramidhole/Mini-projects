@@ -6,6 +6,8 @@ let symbols     =    document.getElementById  ("symbols");
 let genbtn      =    document.getElementById  ("genbtn");
 let sliderValue =    document.getElementById  ("sliderValue");
 let uppercase   =    document.getElementById  ("uppercase");
+let copyicon = document.getElementById("copyIcon");
+
 
 
 //showing input value 
