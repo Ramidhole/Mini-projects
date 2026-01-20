@@ -57,3 +57,10 @@ function genratePassword(){
 return genPassword;
    
 }
+
+copyIcon.addEventListener('click', ()=>{
+
+    navigator.clipboard.writeText(passBox.value)
+
+    copyIcon.title = "password copied"
+})
